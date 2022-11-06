@@ -252,7 +252,7 @@ as parameters and sets their values to the corresponding properties in the class
    earlier exercise. The main program simulates the progressing of the race by calling the `hour_passes` in a loop, after which it uses the `race_finished`
    method to check if the race has finished. The current status is printed out using the `print_status` method every ten hours and then once more at the
    end of the race.
-   ```python
+```python
    #10.4
 import random
 from tabulate import tabulate
@@ -336,7 +336,7 @@ while not newRace.race_finished():
     newRace.print_status()
 print("\nFinal race result:")
 newRace.print_status()
-   ```
+```
 Output console:
 ```
 ****** Exercise 10.4 ******
