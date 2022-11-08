@@ -282,12 +282,6 @@ class car:
             self.curSpeed = self.maxSpeed
         return self.curSpeed
 
-    def emergency(self):
-        self.curSpeed -= 200
-        if self.curSpeed < 0:
-            self.curSpeed = 0
-        return self.curSpeed
-
     def drive(self, hours):
         self.travelledDistance += self.curSpeed * hours
         return self.travelledDistance
